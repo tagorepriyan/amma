@@ -32,8 +32,8 @@
         }
 
         video {
-            width: 50%;
-            height: auto;
+            max-width: 100%; /* Set the maximum width to 100% */
+            height: auto; /* Maintain aspect ratio */
             border: none;
             border-radius: 15pt;
             box-shadow: 0 0 10px rgba(23, 150, 192, 0.6), 0 0 20px rgba(23, 150, 192, 0.8), 0 0 40px rgba(23, 150, 192, 0.8), 0 0 80px rgba(23, 150, 192, 0.8);
@@ -42,11 +42,11 @@
         .neonText {
           animation: flicker 1.5s infinite alternate;
           color: #fff;
-          font-size: 5vw; /* Adjust the font size using viewport units (vw) */
+          font-size: 5vw;
         }
 
         h1 {
-          font-size: 4vw; /* Adjust the font size using viewport units (vw) */
+          font-size: 4vw;
         }
 
         @keyframes flicker {  
